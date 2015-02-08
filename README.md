@@ -19,9 +19,9 @@ some_list_with_keys:
 You want a string of `id`, that looks like: `id1,id2`.
 
 ```
-"{{ some_list_with_keys | joins_by_key('id')  }}"
+"{{ some_list_with_keys | joins_by_key('id') }}"
 
-  => "id1,id2"
+=> "id1,id2"
 ```
 
 ## LICENSE
